@@ -1,0 +1,15 @@
+{
+    "name": "akunpos-payment",
+    "version": "1.0.0",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js"
+    },
+    "dependencies": {
+        "akunpos-payment": "file:",
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
+        "midtrans-client": "^1.3.1"
+    }
+}
